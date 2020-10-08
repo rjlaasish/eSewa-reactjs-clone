@@ -1,0 +1,49 @@
+.card-root{
+    width: 205px;
+    height: 205px;
+    box-shadow: 1px 1px 5px rgb(221, 221, 221);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    padding: 10px 20px ;
+}
+
+.card-img{
+    margin-top: 15%;
+    width: 70px;
+    height: 70px;
+    z-index: 999;
+    object-fit: cover;
+}
+
+.view-detail-btn{
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20%;
+    color:  #41a124;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: 0.2s ease-in-out;
+}
+
+.view-detail-btn:hover{
+    background-color:#41a124;
+    color: #ffffff;
+}
+
+.optional-offer{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#41a124 ;
+    padding: 6px 14px;
+    border-radius: 0px 5px 5px 0px ;
+    /* z-index: 2; */
+    background-color: #e6f1ea;
+}

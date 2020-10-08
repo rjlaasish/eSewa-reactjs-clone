@@ -1,0 +1,84 @@
+.container{
+    padding:10px;
+   
+}
+.row{
+    margin-left:95px;
+    margin-right:95px;
+}
+
+.m-auto{
+    margin:auto;
+}
+
+.mx-auto{
+    margin:0px auto;
+}
+
+.my-auto{
+    margin: auto 0px;
+}
+
+.mx-10{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.mx-20{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.py-10{
+    padding:10px 0px;
+}
+
+.px-10{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.p-10{
+    padding:10px;
+}
+
+.flex{
+    display: flex; 
+}
+
+.flex .jcc{
+      display: flex;
+      justify-content: center;  
+}
+
+
+.flex .algnitm{
+      display: flex;
+      align-items: center;
+    }
+.flex .jcsb .alignitems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.app-color{
+    background-color: #41a124;
+}
+
+.app-color-text{
+    color: #41a124;
+}
+
+.jcsb{
+    justify-content:space-between;
+}

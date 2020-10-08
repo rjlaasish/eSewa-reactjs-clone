@@ -1,0 +1,21 @@
+.strip {
+  margin-top: 70px;
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.list{
+    list-style-type: none;
+    margin: 0px 10px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.list:hover{
+    /* font-size: 13px; */
+    color: #cec9c9;
+}

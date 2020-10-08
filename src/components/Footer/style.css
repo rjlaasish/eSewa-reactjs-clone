@@ -1,0 +1,17 @@
+.footer-root{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background-color: #28323c;
+}
+
+.footer-bottom{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 80px;
+    width: 100vw;
+    
+    background-color: #1c252e;
+}
