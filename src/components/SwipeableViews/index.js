@@ -18,14 +18,14 @@ function MyCarousalItems({ children }) {
   };
 
   function onLeftPressed() {
-    if (index == 0) {
+    if (index === 0) {
       setIndex(2);
     } else {
       setIndex((prevState) => prevState - 1);
     }
   }
   const onRightPressed = () => {
-    if (index == 2) {
+    if (index === 2) {
       setIndex(0);
     } else {
       setIndex((prevState) => prevState + 1);
@@ -35,7 +35,7 @@ function MyCarousalItems({ children }) {
   const ImageItems = ({ imagePath }) => {
     return (
       <div className="image-Container">
-        <img src={imagePath} className="slider-image" />
+        <img src={imagePath} alt="slider-pic" className="slider-image" />
       </div>
     );
   };

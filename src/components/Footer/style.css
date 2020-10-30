@@ -41,6 +41,11 @@
   color: #ffffff;
   border-radius: 5px;
   padding: 10px 15px;
+  cursor: pointer;
+}
+
+.help-foot-btn:hover{
+  background-color:#347528;
 }
 
 .policy,

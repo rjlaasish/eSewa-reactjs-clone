@@ -1,4 +1,3 @@
-import { Image } from "@material-ui/icons";
 import AppBar from "@material-ui/core/AppBar";
 import eSewalogo from "../../assets/images/esewa_logo.png";
 import React from "react";
@@ -6,7 +5,7 @@ import "./style.css";
 import SearchIcon from "@material-ui/icons/Search";
 import PersonIcon from "@material-ui/icons/Person";
 import LockIcon from '@material-ui/icons/Lock';
-import { Button, Input, InputAdornment, TextField, Typography } from "@material-ui/core";
+import { Button } from "@material-ui/core";
 
 export default function NavigationBar() {
   return (

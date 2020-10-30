@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css';
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 
-function CardHeader({header}) {
+function Cardheader({header}) {
     return (
         <div>
             <div className="card-header-contents">
@@ -16,4 +16,4 @@ function CardHeader({header}) {
     )
 }
 
-export default CardHeader
+export default Cardheader
