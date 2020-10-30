@@ -1,0 +1,25 @@
+.menu-wrapper{
+    margin: 10px 0px;
+    display: flex;
+    padding:5px 5px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.menu-wrapper:hover{
+    cursor: pointer;
+    background-color: #e0e0e098;
+
+}
+
+.side-text{
+    font-size: 14px;
+}
+.right-icon{
+/* color: red; */
+}
+
+.menu-wrapper .MuiSvgIcon-root{
+    color: gray;
+}

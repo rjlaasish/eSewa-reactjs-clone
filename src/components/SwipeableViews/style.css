@@ -13,7 +13,14 @@
     opacity: 0.6;
     border-radius: 10px 0px 0px 10px ;
     transform: translateY(-50%);
+    cursor: pointer;
+    transition:all  0.2s ease ;
 }
+
+.right-icon-bg:hover {
+    opacity: 0.8;    
+}
+
 .right-icon{
     position: absolute;
     top: 45%;
@@ -31,6 +38,11 @@
     opacity: 0.6;
     border-radius: 0px 10px 10px 0px ;
     transform: translateY(-50%);
+    cursor: pointer;
+    transition:all  0.2s ease ;
+}
+.left-icon-bg:hover{
+    opacity: 0.8;
 }
 .left-icon{
     position: absolute;

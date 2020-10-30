@@ -1,17 +1,133 @@
-.footer-root{
-    width: 100vw;
-    height: 80vh;
-    position: relative;
-    background-color: #28323c;
+.footer-root {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+
+  background-color: #28323c;
+}
+.privacy-policy-general {
+  padding-top: 40px;
+  color: gray;
+  display: flex;
+
+  /* align-items: center; */
+  justify-content: space-between;
 }
 
-.footer-bottom{
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+.privacy-policy-general img {
+  margin-top: 50px;
+  width: 120px;
+  height: 40px;
+}
+
+.privacy-policy-general span {
+  padding: 5px 0px;
+  font-size: 12px;
+}
+.privacy-policy-general span:hover {
+  color: #5cb85c;
+  cursor: pointer;
+}
+
+.horizontal-divider {
+  margin: 20px 50px;
+  height: 1px;
+  background-color: rgba(177, 177, 177, 0.096);
+}
+
+.help-foot-btn {
+  margin-top: 40px;
+  background-color: #5cb85c;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.policy,
+.general,
+.company,
+.partners,
+.help-upper {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+
+.policy-and-general {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.footer-bottom {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 80px;
+  width: 100vw;
+
+  background-color: #1c252e;
+}
+
+.footer-base-part {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.right-footer{
+    border-radius: 40px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    width: 200px;
     height: 80px;
-    width: 100vw;
-    
-    background-color: #1c252e;
+}
+
+.right-footer img{
+    width: 100%;
+    height: 100%;
+}
+
+.left-footer{
+    display: flex;
+  align-items: center;
+}
+
+.verified img,
+.master img,
+.iso img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+
+.verified,
+.master,
+.iso {
+  width: 100px;
+
+  background-color: #ffffff;
+  margin: 0px 15px;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+
+.iso{
+    width: 150px;
+    /* height: 200px; */
+}
+
+.mobile-apps{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stores img{
+    width: 100px;
+    /* height: 50px; */
 }

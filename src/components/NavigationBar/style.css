@@ -43,34 +43,34 @@
   width: 200px;
   height: 30px;
   display: flex;
+  padding: 0px 10px;
+  align-items: center;
+  background-color: #28323c;
+  border-radius: 2px;
   /* margin-left: 45px; */
   margin-right: 45px;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease;
 }
 
+.login-field input{
+  overflow: hidden;
+  padding-left: 10px;
+  background-color: transparent;
 
-.login-icon{
-  width: 15%;
-  height: 100%;
-  background-color: #28323c;
-  /* padding-right: 10px; */
-  border-radius: 2px;
-}
-
-.login-search-field{
-  width: 100%;
-  background-color: #28323c;
-  outline: none;
   border: none;
-  padding: 10px;
-  transition: 0.5s ease-in-out;
+  outline: none;
+}
+
+.login-field:hover {
+  background-color: #ffffff;
 }
 
 
-
-.login-search-field:focus {
-  background-color: #ffffff !important;
+.login-field .MuiSvgIcon-root{
+ color: #347528;
 }
+
+
 
 
 

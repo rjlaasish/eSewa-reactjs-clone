@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './style.css';
 import CardHeader from '../Cardheader';
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
-
+import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 
 
 export default function RowItem({header,children}) {
@@ -15,7 +15,10 @@ export default function RowItem({header,children}) {
                 <ChevronRightIcon/>
             </div>
             </div>
-            <div className="flex my-10 jcsb ">
+            <div className="flex my-10 jcsb " style={{position:"relative"}}>
+                <div className="slide-right">
+                    <KeyboardArrowRightIcon/>
+                </div>
            {children}
             </div>
         </div>

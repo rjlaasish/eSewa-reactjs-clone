@@ -24,23 +24,20 @@ export default function NavigationBar() {
               <SearchIcon style={{ width: "60px" }} />
             </div>
           </div>
-          <div className="login-field " style={{marginTop:"22px"}}>
-            <div className="login-icon flex jcc algnitm">
-              <PersonIcon style={{ width: "60px" }} className="app-color-text" />
-            </div>
+          <div className="login-field" style={{marginTop:"22px"}}>
+           
+              <PersonIcon />
             <input
               type="text"
-              className="login-search-field"
+              // className="login-search-field"
               placeholder="eSewa ID"
             />
           </div>
           <div className="login-field" style={{marginTop:"22px"}}>
-            <div className="login-icon flex jcc algnitm">
-              <LockIcon style={{ width: "60px" }} className="app-color-text" />
-            </div>
+        
+              <LockIcon />
             <input
               type="text"
-              className="login-search-field"
               placeholder="Password"
             />
           </div>
